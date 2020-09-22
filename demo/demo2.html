@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ClipLab Lib</title>
+	<title>ClipLab</title>
 </head>
 <body>
-	<button id="btn" data-copy-text="The text will be copied" title="Copy Me!">Copy</button>
+	<input class="input" style="width:250px" value="Press Copy to copy this text"></input>
+	<button id="btn" data-attr-selector=".input">Copy</button>
 
 	<script type="text/javascript" src="../src/cliplab.js"></script>
 	<script type="text/javascript">
-//	new ClipLab("#btn"); 
-		var copyText= new ClipLab("#btn"); 
-          // true
+		var copyText = new ClipLab("#btn");
+
 		copyText.onCopied = function(text) {
-			alert("Copied: " + text);
+			alert("Copied: " + text)
+			this.unselect();
 		};
-          // false
+
 		copyText.notCopied = function(text) {
 			window.prompt("Ctrl+C: ", text);
-		}; 
+			// this.unselect();
+		};
 	</script>
 </body>
 </html>
