@@ -1,6 +1,6 @@
 # CLIPLAB LIBRARY
 
-<p style="font-family:georgia>ClipLab is a Simple but Effective Copy to Clipboard JavaScript Library. ClipLab can copy text to library in just a single line of JavaScript code. I tried as much as possible to minimize this library into a single function for flexibility. </p>
+ClipLab is a Simple but Effective Copy to Clipboard JavaScript Library. ClipLab can copy text to library in just a single line of JavaScript code. I tried as much as possible to minimize this library into a single function for flexibility.
 
 ## How to Use:
 
@@ -14,7 +14,7 @@
   new ClipLab("#btn");
 ```
 
-<p style="font-family:georgia">This single line function will copy text to clipboard with the id `btn`. </p>
+This single line function will copy text to clipboard with the id `btn`...
 
 
 ## More Example
@@ -34,7 +34,7 @@
 
 # ClipLab Attribute
 
-<p style="font-family:georgia"> ClipLab has two attributes, the `data-copy-text` attribute and `data-attr-selector` used for specifying clipboard value</p>
+ClipLab has two attributes, the `data-copy-text` attribute and `data-attr-selector` used for specifying clipboard value. 
 
 ## Example
 ```html
@@ -50,7 +50,7 @@
 	 </script>
 ```
 
-<p style="font-family:georgia">The text inside the `data-copy-text` attribute will be copied.</p>
+The text inside the `data-copy-text` attribute will be copied.
 
 ## Show if a text is copied.
 
@@ -72,7 +72,7 @@
 	</script>
 ```
 
-<p style="font-family:georgia">You can copy text from an input field for example:</p>
+You can copy text from an input field for example:
 
 ```javascript
 
