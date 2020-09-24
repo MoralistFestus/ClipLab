@@ -32,7 +32,7 @@ The two data attributes in cliplab are used for specifying clipboard value (text
 <button id="btn" data-copy-text="This text will be copied">Copy</button>
 ```
 
-The <b>data-copy-text</b> attribute holds the text that will be copied to clipboard. To further the text to clipboard. let's call the ClipLab function and pass the `id="btn"` attribute into the function.
+The <b>data-copy-text</b> attribute holds the text that will be copied to clipboard. To further copy the text to clipboard. let's call the ClipLab function and pass the `id="btn"` attribute into the function.
 
 ## Sample code
 
