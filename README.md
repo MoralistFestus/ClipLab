@@ -1,4 +1,6 @@
 # CLIPLAB LIBRARY - JavaScript
+<img src="https://raw.githubusercontent.com/MoralistFestus/ClipLab/tree/master/demo/20200924_225649.png" alt="ClipLab">
+
 ClipLab is a Simple but Effective Copy to Clipboard 📋 Library ♎. This simple library allows copying text to clipboard with a single JavaScript function.
 
 ## How to Use
