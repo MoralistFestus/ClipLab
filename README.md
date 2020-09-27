@@ -18,6 +18,12 @@ Or minifed version
 https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/cliplab.min.js
 ```
 
+## By tagged version 
+```
+https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab@1.0.0/src/cliplab.js
+
+https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab@1.0.0/src/cliplab.min.js
+```
 ## Example Code
 
 ```javascript
