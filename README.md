@@ -15,7 +15,7 @@ https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/cliplab.js
 Or minifed version
 
 ```
-https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/ClipLab.min.js
+https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/cliplab.min.js
 ```
 
 ## Example Code
