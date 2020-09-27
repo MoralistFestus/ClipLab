@@ -5,8 +5,18 @@ ClipLab is a Simple but Effective Copy to Clipboard 📋 Library ♎. This simpl
 
 ## How to Use
 
-✔ Download or Clone this Library
+✔ Download or Clone this Library <br>
 ✔ Link it in your html file using `<script src="cliplab.js"></script>` or use the minified version.
+
+## CDN
+```
+https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/cliplab.js
+```
+Or minifed version
+
+```
+https://cdn.jsdelivr.net/gh/MoralistFestus/ClipLab/src/ClipLab.min.js
+```
 
 ## Example Code
 
