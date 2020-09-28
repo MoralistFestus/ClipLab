@@ -42,7 +42,7 @@ The ClipLab Js library has two data attributes:
 The two data attributes in cliplab are used for specifying clipboard value (text to be copied to clipboard). 
 
 - The `data-copy-text` holds the text value to be copied to clipboard, while
-- The `data-attr-selector` points to the class value of an input field to be copied.
+- The `data-attr-selector` points to the class or id value of an input field to be copied.
 
 ## data-copy-text example
 
@@ -83,9 +83,24 @@ You can let the user aware that the text is successfully copied to clipboard.
 	</script>
 ```
 
-Texts from input or textarea fields can be copied with use of ClipLab library. Refer to the official documentation website. 
+Texts from input or textarea fields can be copied with use of ClipLab library. 
 
-For More Documentation on the library, pls refer to it official website: <a href="https://moralistfestus.github.io/ClipLab">ClipLab Website</a>
+```javascript
+<input class="input" value="Press Copy to copy this text"></input>
+	<button id="btn" data-attr-selector=".input">Copy</button>
+	<script type="text/javascript">
+		var copyText = new ClipLab("#btn");
+
+		copyText.onCopied = function(copy) {
+			alert("Copied: " + copy)
+			this.unselect();
+		};
+
+		copyText.notCopied = function(copy) {
+			window.prompt("Ctrl+C: ", copy);
+		};
+	</script>
+```
 
 ## Browser Support
 ClipLab works with the latest version of JavaScript on Chrome, Firefox, Opera Mini and other browsers but as not being tested with IE (Internet Explorer).
