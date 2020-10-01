@@ -1,0 +1,28 @@
+{
+  "licenses": [
+    {
+      "url": "https://github.com/MoralistFestus/ClipLab/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "null": "standalone", 
+  },
+  "docs": "https://github.com/MoralistFestus/ClipLab",
+  "demo": "http://github.com/MoralistFestus/demo",
+  "name": "ClipLab",
+  "title": "ClipLab JavaScript Library",
+  "author": {
+    "name": "Moralist Festus",
+    "url": "https://twitter.com/moralistfestus"
+  },
+  "description": "
+  A Simple but Effective JavaScript Library to Copy Text to Clipboard",
+  "keywords": [
+    "cliplab",
+    "copy", 
+    "clipboard"
+  ],
+  "homepage": "http://github.com/MoralistFestus/ClipLab",
+  "bugs": "https://github.com/MoralistFestus/ClipLab/issues",
+  "version": "1.0.0"
+}
